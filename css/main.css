@@ -8,7 +8,7 @@ body{
     height: 100%;
     display: flex;
     justify-content: center;
-    background-color: lightblue;
+    background-color: rgb(37, 38, 39);
 }
 .imagem{ /* DIV */
     display: flex;
@@ -25,6 +25,6 @@ body{
     justify-content: center;
     font-size: 32px;
     font-weight: 600;
-    color: rgb(28, 69, 206); /* cor p/ texto */
+    color: rgb(211, 72, 223); /* cor p/ texto */
     font-family: Arial, Helvetica, sans-serif;
 }
