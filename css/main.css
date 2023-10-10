@@ -28,3 +28,29 @@ body{
     color: rgb(211, 72, 223); /* cor p/ texto */
     font-family: Arial, Helvetica, sans-serif;
 }
+.redes-sociais{
+    margin-top: 10px; 
+    justify-content: center;
+    align-items: center;
+}
+.icone, .email{
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 1);
+    margin: 5px;
+    overflow: hidden;
+}
+.icone i, .email i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: azure;
+    color: #308ff4;
+    cursor: pointer;
+}
