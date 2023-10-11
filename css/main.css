@@ -8,7 +8,8 @@ body{
     height: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgb(37, 38, 39);
+    background: linear-gradient(black,darkgray);
+    background-repeat: no-repeat;
 }
 .imagem{ /* DIV */
     display: flex;
@@ -25,13 +26,17 @@ body{
     justify-content: center;
     font-size: 32px;
     font-weight: 600;
-    color: #308ff4; /* cor p/ texto */
+    color: rgb(35, 35, 35); /* cor p/ texto */
     font-family: Arial, Helvetica, sans-serif;
 }
 .redes-sociais{
+    display: flex;
     margin-top: 10px; 
     justify-content: center;
     align-items: center;
+}
+.redes-sociais a{
+    text-decoration: none;
 }
 .icone, .email{
     height: 35px;
@@ -51,6 +56,22 @@ body{
     font-size: 20px;
     border-radius: 30px;
     background-color: azure;
-    color: #308ff4;
+    color: #494b4d;
     cursor: pointer;
+}
+.icone span a{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    margin-right: 23px;
+    color: #308ff4;
+    font-size: 16px;
+    line-height: 35px;
+}
+.icone:hover{
+    width: 125px;
+    background-color: aliceblue;
+}
+.texto{
+    color: rgb(35, 35, 35);
 }
