@@ -73,5 +73,22 @@ body{
     background-color: aliceblue;
 }
 .texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 500px;
+    height: ;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(35, 35, 35);
+    background: rgb(140, 140, 140);
+    overflow: hidden;
+    box-shadow: 7px 7px 15px rgb(7, 7, 7);
+    cursor: pointer;
+}
+h2{
+    margin-top: 40px;
+    text-align: center;
     color: rgb(35, 35, 35);
 }
