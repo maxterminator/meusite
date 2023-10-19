@@ -80,39 +80,38 @@ body{
 }
 .texto{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    width: 500px;
-    height: ;
-    padding: 20px;
-    border-radius: 10px;
+    margin: 50px 30px;
+    font-family: 'Victor Mono', monospace;
+    font-size: 20px;
+    text-align: justify;
+    width: 700px;
+    height: 200px;
+    padding: 50px;
+    border-radius: 24px;
     color: rgb(35, 35, 35);
     background: rgb(140, 140, 140);
     overflow: hidden;
     box-shadow: 7px 7px 15px rgb(7, 7, 7);
     cursor: pointer;
 }
-h2{
-    margin-top: 40px;
-    text-align: center;
-    color: rgb(35, 35, 35);
-}
 .sobre-mim{
     position: absolute;
-    top: 50%; /* Move o topo do h2 para o centro vertical */
-    transform: translate(0, -400%);
+    top: 10px; /* Move o topo do h2 para o centro vertical */
+    /* para valoresw em porcentagem - transform */
     display: flex;
-    color: whitesmoke;
+    color: rgb(50, 50, 50); /* cor p/ texto */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 30px;
     line-height: 35px;
 }
 .subtitulo{
-    font-weight: 600;
-    color: rgb(140, 140, 140); /* cor p/ texto */
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(65, 62, 62); /* cor p/ texto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: center;
     font-size: 35px;
@@ -129,7 +128,7 @@ h2{
     justify-content: center;
     align-items: center;
     width: 400px;
-    border-radius: 30px;
+    border-radius: 100px;
     margin: 5px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
 }
@@ -138,5 +137,29 @@ h2{
     flex-direction: column;
 }
 .item{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(140, 140, 140); /* cor p/ texto */
+    border: 1px solid rgb(52, 55, 56);
+    border-radius: 50px;
+    width: 384px;
+    height: 35px;
+    font-size: 18px;
+    background: rgb(234, 234, 234);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+}
+.item:hover{
+    transition: 0.2s;
+    background-color: rgb(192, 189, 189);
+}
+#movie{
+    padding: 15px;
+    margin: auto;
+    display: none;
+}
+#movie.active{
+    display: block;
 }
