@@ -110,7 +110,7 @@ body{
 }
 .subtitulo{
     font-weight: 100;
-    color: rgb(65, 62, 62); /* cor p/ texto */
+    color: rgb(65, 65, 65); /* cor p/ texto */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -169,13 +169,13 @@ body{
 /* resolucao 800px */
 @media (max-width: 800px){
     .imagem img{
-        width: 200px;
-        border-radius: 200px;
+        width: 350px;
+        border-radius: 150px;
         margin-top: 25px;
     }
     .texto{
-        width: 300px;
-        height: 500px;
+        width: 500px;
+        height: 350px;
     }
     .linguagem img{
         width: 250px;
@@ -194,8 +194,8 @@ body{
 /* resolucao 500px */
 @media (max-width: 500px){
     .imagem img{
-        width: 150px;
-        border-radius: 250px;
+        width: 200px;
+        border-radius: 150px;
         margin-top: 15px;
     }
     .texto{
@@ -204,13 +204,13 @@ body{
 
     }
     .linguagem img{
-        width: 80px;
+        width: 160px;
     }
     .subtitulo{
         font-size: 20px;
     }
     .item{
-        width: 220px;
+        width: 260px;
     }
     #movie{
         width: 250px;
